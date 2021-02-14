@@ -1,0 +1,131 @@
+body {
+  background-image: url(snowwolf-bw.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+ol {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #00B32C; /* christmas green */
+}
+ol li {
+  width: 90%;
+  padding: 5px;
+  margin-left: 75px;
+  font-family: sans-serif;
+  font-size: 2em;
+  color: black;
+}
+.title {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #B3000C; /* christmas red */
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 4em;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #DC3D2A; /* light red */
+}
+.question {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #B3000C; /* christmas red */
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 3em;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #DC3D2A; /* light red */
+}
+.answer {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0;
+  text-align: center;
+  background-color: #0D5901; /* christmas green */
+  margin-top: 20px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #00B32C; /* light green */
+}
+.next {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: gray;
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+}
+.wrongAnswers {
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #B3000C; /* christmas red */
+  margin-top: 20px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  /*border-color: #DC3D2A;*/ /* light red */
+  border-color: white;
+}
+.score {
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #F8B229; /* yellow */
+  margin-top: 20px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  /*border-color: #FFC246;*/ /* light yellow */
+  border-color: white;
+}
+.score2 {
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #71A6D1; /* blue */
+  margin-top: 20px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 20px;
+  border-style: solid;
+  /*border-color: #ECF7FB;*/ /* very light blue */
+  border-color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 30px;
+  grid-column-gap: 10px;
+}
+
+#congrats {
+  font-size: 3.8em;
+  margin-top: 50px;
+}

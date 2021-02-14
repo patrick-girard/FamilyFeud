@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="scripts.js"></script>
+	</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+
+	<body>
+		<div id=start class="container">
+			<div class="title">Family Feud</div>
+
+			<ol>
+				<li>Divide into 2 teams and select Team Captains.</li>
+				<li>The host will read the question and the player who hits the buzzer first has to immediately give an answer.</li>
+				<li>If the first player fails to give a correct answer, the other team player gets 5 seconds to guess a correct answer.</li>
+				<li>The team whose Captain gives a correct answer first gets the chance to play this round of the game OR they can pass the chance to play the round to the opposing team.</li>
+				<li>The team who chooses to play this round gets a chance to guess the remaining top answers to the question. Each team member (no help from the team) gets a chance to give an answer, one by one, until they've found all the answers or gotten three wrong answers (called strikes).</li>
+				<li>When the team has three strikes, the second team gets one chance to give one of the top answers to the question (team can collaborate). If they succeed, they will steal all of the other team's points from that round and win the round. If the opposing team fails, the first team keeps their points for that round.</li>
+				<li>The game ends when one of the competing teams earns 300 points.</li>
+			</ol>
+
+			<button class="next" style="float: right;" onclick="showFirstQuestion()">Let's Get Started!</button>
+		</div>
+
+		<div id=question0 class="container" style="display: none;">
+			<div class="question">1. What would you find at the North Pole?</div>
+				<button id="answer0-0" class="answer" onclick="flipAnswer('answer0-0', 1, 'Santa Claus (27)')">1</button>
+				<button id="answer0-1" class="answer" onclick="flipAnswer('answer0-1', 2, 'Elves (20)')">2</button>
+				<button id="answer0-2" class="answer" onclick="flipAnswer('answer0-2', 3, 'Snow (15)')">3</button>
+				<button id="answer0-3" class="answer" onclick="flipAnswer('answer0-3', 4, 'Reindeer (12)')">4</button>
+				<button id="answer0-4" class="answer" onclick="flipAnswer('answer0-4', 5, 'Santas sleigh (11)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers0 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers0')">&nbsp;</button>
+					<button id=team1Score0 class="score" onclick="addScore('team1Score0', 0)">0</button>
+					<button id=team2Score0 class="score2" onclick="addScore('team2Score0', 0)">0</button>
+					<button class="next" onclick="showNextQuestion(0)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question1 class="container" style="display: none;">
+			<div class="question">2. Name a smell typically associated with Christmas.</div>
+				<button id="answer1-0" class="answer" onclick="flipAnswer('answer1-0', 1, 'Evergreen (45)')">1</button>
+				<button id="answer1-1" class="answer" onclick="flipAnswer('answer1-1', 2, 'Cinnamon (22)')">2</button>
+				<button id="answer1-2" class="answer" onclick="flipAnswer('answer1-2', 3, 'Cookies (15)')">3</button>
+				<button id="answer1-3" class="answer" onclick="flipAnswer('answer1-3', 4, 'Turkey (6)')">4</button>
+				<button id="answer1-4" class="answer" onclick="flipAnswer('answer1-4', 5, 'Peppermint (5)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers1 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers1')">&nbsp;</button>
+					<button id=team1Score1 class="score" onclick="addScore('team1Score1', 1)">0</button>
+					<button id=team2Score1 class="score2" onclick="addScore('team2Score1', 1)">0</button>
+					<button class="next" onclick="showNextQuestion(1)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question2 class="container" style="display: none;">
+			<div class="question">3. Name something no Christmas party should be without</div>
+				<button id="answer2-0" class="answer" onclick="flipAnswer('answer2-0', 1, 'Eggnog (23)')">1</button>
+				<button id="answer2-1" class="answer" onclick="flipAnswer('answer2-1', 2, 'Tree (19)')">2</button>
+				<button id="answer2-2" class="answer" onclick="flipAnswer('answer2-2', 3, 'Food/Drink (18)')">3</button>
+				<button id="answer2-3" class="answer" onclick="flipAnswer('answer2-3', 4, 'Gifts (17)')">4</button>
+				<button id="answer2-4" class="answer" onclick="flipAnswer('answer2-4', 5, 'Santa Claus (14)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers2 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers2')">&nbsp;</button>
+					<button id=team1Score2 class="score" onclick="addScore('team1Score2', 2)">0</button>
+					<button id=team2Score2 class="score2" onclick="addScore('team2Score2', 2)">0</button>
+					<button class="next" onclick="showNextQuestion(2)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question3 class="container" style="display: none;">
+			<div class="question">4. Name something people want for Christmas that cant be put in a box.</div>
+				<button id="answer3-0" class="answer" onclick="flipAnswer('answer3-0', 1, 'Car (47)')">1</button>
+				<button id="answer3-1" class="answer" onclick="flipAnswer('answer3-1', 2, 'Love (13)')">2</button>
+				<button id="answer3-2" class="answer" onclick="flipAnswer('answer3-2', 3, 'Bike (13)')">3</button>
+				<button id="answer3-3" class="answer" onclick="flipAnswer('answer3-3', 4, 'Pet (12)')">4</button>
+				<button id="answer3-4" class="answer" onclick="flipAnswer('answer3-4', 5, 'House (6)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers3 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers3')">&nbsp;</button>
+					<button id=team1Score3 class="score" onclick="addScore('team1Score3', 3)">0</button>
+					<button id=team2Score3 class="score2" onclick="addScore('team2Score3', 3)">0</button>
+					<button class="next" onclick="showNextQuestion(3)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question4 class="container" style="display: none;">
+			<div class="question">5. Name something you might find in a stocking.</div>
+				<button id="answer4-0" class="answer" onclick="flipAnswer('answer4-0', 1, 'Candy (44)')">1</button>
+				<button id="answer4-1" class="answer" onclick="flipAnswer('answer4-1', 2, 'Orange (16)')">2</button>
+				<button id="answer4-2" class="answer" onclick="flipAnswer('answer4-2', 3, 'Gift Card (15)')">3</button>
+				<button id="answer4-3" class="answer" onclick="flipAnswer('answer4-3', 4, 'Coal (5)')">4</button>
+				<button id="answer4-4" class="answer" onclick="flipAnswer('answer4-4', 5, 'Foot (3)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers4 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers4')">&nbsp;</button>
+					<button id=team1Score4 class="score" onclick="addScore('team1Score4', 4)">0</button>
+					<button id=team2Score4 class="score2" onclick="addScore('team2Score4', 4)">0</button>
+					<button class="next" onclick="showNextQuestion(4)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question5 class="container" style="display: none;">
+			<div class="question">6. Name one of the gifts from the song The Twelve Days of Christmas.</div>
+				<button id="answer5-0" class="answer" onclick="flipAnswer('answer5-0', 1, 'Partridge (40)')">1</button>
+				<button id="answer5-1" class="answer" onclick="flipAnswer('answer5-1', 2, 'Golden Rings (36)')">2</button>
+				<button id="answer5-2" class="answer" onclick="flipAnswer('answer5-2', 3, 'Turtle Doves (10)')">3</button>
+				<button id="answer5-3" class="answer" onclick="flipAnswer('answer5-3', 4, 'Geese a Laying (5)')">4</button>
+				<button id="answer5-4" class="answer" onclick="flipAnswer('answer5-4', 5, 'Swans a Swimming (4)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers5 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers5')">&nbsp;</button>
+					<button id=team1Score5 class="score" onclick="addScore('team1Score5', 5)">0</button>
+					<button id=team2Score5 class="score2" onclick="addScore('team2Score5', 5)">0</button>
+					<button class="next" onclick="showNextQuestion(5)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question6 class="container" style="display: none;">
+			<div class="question">7. Name one item you might leave for Santa Claus on Christmas Eve.</div>
+				<button id="answer6-0" class="answer" onclick="flipAnswer('answer6-0', 1, 'Cookies (78)')">1</button>
+				<button id="answer6-1" class="answer" onclick="flipAnswer('answer6-1', 2, 'Milk (9)')">2</button>
+				<button id="answer6-2" class="answer" onclick="flipAnswer('answer6-2', 3, 'Booze (7)')">3</button>
+				<button id="answer6-3" class="answer" onclick="flipAnswer('answer6-3', 4, 'Carrots (6)')">4</button>
+				<button id="answer6-4" class="answer" onclick="flipAnswer('answer6-4', 5, 'Gingerbread (4)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers6 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers6')">&nbsp;</button>
+					<button id=team1Score6 class="score" onclick="addScore('team1Score6', 6)">0</button>
+					<button id=team2Score6 class="score2" onclick="addScore('team2Score6', 6)">0</button>
+					<button class="next" onclick="showNextQuestion(6)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question7 class="container" style="display: none;">
+			<div class="question">8. What is the worst gift you could give your significant other?</div>
+				<button id="answer7-0" class="answer" onclick="flipAnswer('answer7-0', 1, 'Socks (16)')">1</button>
+				<button id="answer7-1" class="answer" onclick="flipAnswer('answer7-1', 2, 'Nothing (13)')">2</button>
+				<button id="answer7-2" class="answer" onclick="flipAnswer('answer7-2', 3, 'Vacuum (11)')">3</button>
+				<button id="answer7-3" class="answer" onclick="flipAnswer('answer7-3', 4, 'Gym Membership (7)')">4</button>
+				<button id="answer7-4" class="answer" onclick="flipAnswer('answer7-4', 5, 'Coal (7)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers7 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers7')">&nbsp;</button>
+					<button id=team1Score7 class="score" onclick="addScore('team1Score7', 7)">0</button>
+					<button id=team2Score7 class="score2" onclick="addScore('team2Score7', 7)">0</button>
+					<button class="next" onclick="showNextQuestion(7)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question8 class="container" style="display: none;">
+			<div class="question">9. Name a Christmas story that a parent might read to their child.</div>
+				<button id="answer8-0" class="answer" onclick="flipAnswer('answer8-0', 1, 'Night Before Christmas (64)')">1</button>
+				<button id="answer8-1" class="answer" onclick="flipAnswer('answer8-1', 2, 'Rudolph the Red Nosed Reindeer (9)')">2</button>
+				<button id="answer8-2" class="answer" onclick="flipAnswer('answer8-2', 3, 'The Grinch Who Stole Christmas (7)')">3</button>
+				<button id="answer8-3" class="answer" onclick="flipAnswer('answer8-3', 4, 'Bible (6)')">4</button>
+				<button id="answer8-4" class="answer" onclick="flipAnswer('answer8-4', 5, 'Frosty the Snowman (4)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers8 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers8')">&nbsp;</button>
+					<button id=team1Score8 class="score" onclick="addScore('team1Score8', 8)">0</button>
+					<button id=team2Score8 class="score2" onclick="addScore('team2Score8', 8)">0</button>
+					<button class="next" onclick="showNextQuestion(8)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question9 class="container" style="display: none;">
+			<div class="question">10. Name a character that shows up at every Church Christmas play.</div>
+				<button id="answer9-0" class="answer" onclick="flipAnswer('answer9-0', 1, 'Jesus (52)')">1</button>
+				<button id="answer9-1" class="answer" onclick="flipAnswer('answer9-1', 2, 'Mary (21)')">2</button>
+				<button id="answer9-2" class="answer" onclick="flipAnswer('answer9-2', 3, 'Angel (10)')">3</button>
+				<button id="answer9-3" class="answer" onclick="flipAnswer('answer9-3', 4, 'Joseph (4)')">4</button>
+				<button id="answer9-4" class="answer" onclick="flipAnswer('answer9-4', 5, 'Wise Men (3)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers9 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers9')">&nbsp;</button>
+					<button id=team1Score9 class="score" onclick="addScore('team1Score9', 9)">0</button>
+					<button id=team2Score9 class="score2" onclick="addScore('team2Score9', 9)">0</button>
+					<button class="next" onclick="showNextQuestion(9)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question10 class="container" style="display: none;">
+			<div class="question">11. Name one of Santas Reindeer.</div>
+				<button id="answer10-0" class="answer" onclick="flipAnswer('answer10-0', 1, 'Rudolph (38)')">1</button>
+				<button id="answer10-1" class="answer" onclick="flipAnswer('answer10-1', 2, 'Dasher (29)')">2</button>
+				<button id="answer10-2" class="answer" onclick="flipAnswer('answer10-2', 3, 'Blitzen (22)')">3</button>
+				<button id="answer10-3" class="answer" onclick="flipAnswer('answer10-3', 4, 'Vixen (12)')">4</button>
+				<button id="answer10-4" class="answer" onclick="flipAnswer('answer10-4', 5, 'Prancer (7)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers10 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers10')">&nbsp;</button>
+					<button id=team1Score10 class="score" onclick="addScore('team1Score10', 10)">0</button>
+					<button id=team2Score10 class="score2" onclick="addScore('team2Score10', 10)">0</button>
+					<button class="next" onclick="showNextQuestion(10)">Show Next Question</button>
+				</div>
+		</div>
+
+		<div id=question11 class="container" style="display: none;">
+			<div class="question">12. Which Christmas movie is played most often over the holidays?</div>
+				<button id="answer11-0" class="answer" onclick="flipAnswer('answer11-0', 1, 'A Christmas Story (35)')">1</button>
+				<button id="answer11-1" class="answer" onclick="flipAnswer('answer11-1', 2, 'Rudolph the Red Nosed Reindeer (19)')">2</button>
+				<button id="answer11-2" class="answer" onclick="flipAnswer('answer11-2', 3, 'The Grinch (16)')">3</button>
+				<button id="answer11-3" class="answer" onclick="flipAnswer('answer11-3', 4, 'Home Alone (11)')">4</button>
+				<button id="answer11-4" class="answer" onclick="flipAnswer('answer11-4', 5, 'Elf (10)')">5</button>
+				<div class=grid-container>
+					<button id=wrongAnswers11 class="wrongAnswers" onclick="addWrongAnswer('wrongAnswers11')">&nbsp;</button>
+					<button id=team1Score11 class="score" onclick="addScore('team1Score11', 11)">0</button>
+					<button id=team2Score11 class="score2" onclick="addScore('team2Score11', 11)">0</button>
+<button class="next" onclick="showWinner(11)">Show Winner</button>
+				</div>
+		</div>
+
+		<div id=congrats class="container" style="display: none;">
+			<div id=finalTeam1Score class="score">The Winner is Team 1!</div>
+			<div id=finalTeam2Score class="score2">The Winner is Team 2!</div>
+		</div>
+	</body>
+</html>

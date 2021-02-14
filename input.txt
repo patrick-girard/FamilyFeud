@@ -1,0 +1,83 @@
+Question: What would you find at the North Pole?
+Answer: Santa Claus (27)
+Answer: Elves (20)
+Answer: Snow (15)
+Answer: Reindeer (12)
+Answer: Santa's sleigh (11)
+
+Question: Name a smell typically associated with Christmas.
+Answer: Evergreen (45)
+Answer: Cinnamon (22)
+Answer: Cookies (15)
+Answer: Turkey (6)
+Answer: Peppermint (5)
+
+Question: Name something no Christmas party should be without
+Answer: Eggnog (23)
+Answer: Tree (19)
+Answer: Food/Drink (18)
+Answer: Gifts (17)
+Answer: Santa Claus (14)
+
+Question: Name something people want for Christmas that can't be put in a box.
+Answer: Car (47)
+Answer: Love (13)
+Answer: Bike (13)
+Answer: Pet (12)
+Answer: House (6)
+
+Question: Name something you might find in a stocking.
+Answer: Candy (44)
+Answer: Orange (16)
+Answer: Gift Card (15)
+Answer: Coal (5)
+Answer: Foot (3)
+
+Question: Name one of the gifts from the song 'The Twelve Days of Christmas'.
+Answer: Partridge (40)
+Answer: Golden Rings (36)
+Answer: Turtle Doves (10)
+Answer: Geese a Laying (5)
+Answer: Swans a Swimming (4)
+
+Question: Name one item you might leave for Santa Claus on Christmas Eve.
+Answer: Cookies (78)
+Answer: Milk (9)
+Answer: Booze (7)
+Answer: Carrots (6)
+Answer: Gingerbread (4)
+
+Question: What is the worst gift you could give your significant other?
+Answer: Socks (16)
+Answer: Nothing (13)
+Answer: Vacuum (11)
+Answer: Gym Membership (7)
+Answer: Coal (7)
+
+Question: Name a Christmas story that a parent might read to their child.
+Answer: Night Before Christmas (64)
+Answer: Rudolph the Red Nosed Reindeer (9)
+Answer: The Grinch Who Stole Christmas (7)
+Answer: Bible (6)
+Answer: Frosty the Snowman (4)
+
+Question: Name a character that shows up at every Church Christmas play.
+Answer: Jesus (52)
+Answer: Mary (21)
+Answer: Angel (10)
+Answer: Joseph (4)
+Answer: Wise Men (3)
+
+Question: Name one of Santa's Reindeer.
+Answer: Rudolph (38)
+Answer: Dasher (29)
+Answer: Blitzen (22)
+Answer: Vixen (12)
+Answer: Prancer (7)
+
+Question: Which Christmas movie is played most often over the holidays?
+Answer: A Christmas Story (35)
+Answer: Rudolph the Red Nosed Reindeer (19)
+Answer: The Grinch (16)
+Answer: Home Alone (11)
+Answer: Elf (10)
