@@ -4,9 +4,9 @@ To create your input file with questions and answers:
 * Edit the "input.txt" file with your data, keeping the same format.
 
 To generate the webpage:
-(1) Access the command line (Terminal on Mac, or probably Putty on Windows).
-(2) Switch into the directory with these files. (cd is the command for change directory).
-(3) enter: python3 writeFamilyFeud.py input.txt
+1. Access the command line (Terminal on Mac, or probably Putty on Windows).
+2. Switch into the directory with these files. (cd is the command for change directory).
+3. enter: python3 writeFamilyFeud.py input.txt
 
 To access the webpage:
 (1) double click on the newly generated familyFeud.html file.
