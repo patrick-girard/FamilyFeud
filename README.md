@@ -3,7 +3,7 @@
 ### Option #1: Let me help you
 
 1. Edit the "input.txt" file with your data, keeping the same format.
-    * Note: You can create fewer or more questions if you'd like
+    * Note: You can create fewer or more questions if you'd like.
 2. Send it to me.
 3. I'll send you the html file that was generated based on your input.
 4. Double click on the familyFeud.html file to open it and play.
