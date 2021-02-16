@@ -11,7 +11,8 @@
 ### Option #2: Do it yourself
 
 To download the files:
-1. 
+1. Click on the green "Code" dropdown button.
+2. Click "Download zip".
 
 To create your input file with questions and answers:
 1. Edit the "input.txt" file with your data, keeping the same format.
