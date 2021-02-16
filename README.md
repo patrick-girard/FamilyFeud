@@ -11,9 +11,20 @@
 
 ### Option #2: Do it yourself
 
+Download Prerequisites:
+1. Install Python 3 [`https://www.python.org/downloads/`] and ensure it is added to PATH during installation. If it is not you --can-- do it afterwards, but it is a big pain in the butt. Note: on Linux it is preinstalled!
+2. [Optional] Install Git [`https://git-scm.com/downloads`]. Follow the instructions carefully during installation, especially on Windows. Note: again on Linux it is preinstalled!
+
 To download the files:
 1. Click on the green "Code" dropdown button.
 2. Click "Download zip".
+
+Or if you want to be a real computer nerd, you can download the files using Git:
+1. Type in your terminal `git clone https://www.github.com/patrick-girard/FamilyFeud`
+
+Note: Windows users can use WSL, GitBash, or the Command Prompt/PowerShell.
+
+2. Change into that directory `cd FamilyFeud`
 
 To create your input file with questions and answers:
 1. Edit the "input.txt" file with your data, keeping the same format.
@@ -21,10 +32,10 @@ To create your input file with questions and answers:
 To generate the webpage:
 1. Access the command line (Terminal on Mac, or probably Putty on Windows).
 2. Switch into the directory with these files. (cd is the command for change directory).
-3. Enter: python3 writeFamilyFeud.py input.txt
+3. Enter: `python3 writeFamilyFeud.py input.txt`
 
 To access the webpage:
-1. Double click on the newly generated familyFeud.html file.
+1. Double click on the newly generated familyFeud.html file. If on Linux typing into your terminal `xdg-open familyFeud.html` in the current directory will open the webpage in your default web browser.
 
 ### To play the game:
 * You can flip each answer to reveal it by clicking on that answer.
