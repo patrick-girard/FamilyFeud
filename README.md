@@ -27,7 +27,11 @@ To access the webpage:
 
 ### To play the game:
 * You can flip each answer to reveal it by clicking on that answer.
+<<<<<<< HEAD
 * To award points,
+=======
+* To award points, 
+>>>>>>> f50ab0fc24a2a1d6ba787520c8f65c1405910f1a
     * Reveal the answers that the winning team got correct and hide the answers that were not guessed correctly.
     * Then, click their team's score button at the bottom to add that amount to their total score.
 * Have fun!
