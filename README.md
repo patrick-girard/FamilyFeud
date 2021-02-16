@@ -12,7 +12,7 @@
 ### Option #2: Do it yourself
 
 Download Prerequisites:
- 1. Install Python 3 [`https://www.python.org/downloads/`] and ensure it is added to PATH during installation. If it is not you _can_ do it afterwards, but it is a big pain in the butt. Note: on Linux it is preinstalled!
+ 1. Install Python 3 [`https://www.python.org/downloads/`] and ensure it is added to PATH during installation. If it is not, you _can_ do it afterwards, but it is a big pain in the butt. Note: on Linux it is preinstalled!
 
 Download the files:
 1. Click on the green "Code" dropdown button.
