@@ -10,6 +10,9 @@
 
 ### Option #2: Do it yourself
 
+To download the files:
+1. 
+
 To create your input file with questions and answers:
 1. Edit the "input.txt" file with your data, keeping the same format.
 
@@ -26,3 +29,9 @@ To access the webpage:
 * Before moving to the next question, flip the answers that the winning team guessed correctly.
 Then, click their team score button at the bottom to add that amount to their total score.
 * Have fun!
+
+
+### Customization
+* To change the colors of the buttons, edit them in the styles.css file.
+* To change the background image, replace the "background.jpeg" image with image called "background.jpeg".
+   * If your image is not a jpeg, either make it a jpeg or edit the filetype for the background image in the styles.css file.
