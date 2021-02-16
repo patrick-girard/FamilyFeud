@@ -9,7 +9,7 @@ To generate the webpage:
 3. enter: python3 writeFamilyFeud.py input.txt
 
 To access the webpage:
-1. double click on the newly generated familyFeud.html file.
+1. Double click on the newly generated familyFeud.html file.
 
 To play the game:
 * You can flip the answers by clicking on each.
