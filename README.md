@@ -26,9 +26,10 @@ To access the webpage:
 1. Double click on the newly generated familyFeud.html file.
 
 ### To play the game:
-* You can flip the answers by clicking on each.
-* Before moving to the next question, flip the answers that the winning team guessed correctly.
-Then, click their team score button at the bottom to add that amount to their total score.
+* You can flip each answer to reveal it by clicking on that answer.
+* To award points, 
+    * Reveal the answers that the winning team got correct and hide the answers that were not guessed correctly.
+    * Then, click their team's score button at the bottom to add that amount to their total score.
 * Have fun!
 
 
